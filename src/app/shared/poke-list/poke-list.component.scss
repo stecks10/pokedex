@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 
   .pokemon {
@@ -19,6 +20,8 @@
         font-size: 24px;
         font-style: italic;
         font-weight: 700;
+        color: #000;
+        text-transform: capitalize;
       }
 
       ul {
@@ -51,7 +54,7 @@
         background: url('../../../assets/bg.png') no-repeat;
 
         img {
-          width: 85px;
+          width: 100px;
         }
     }
   }

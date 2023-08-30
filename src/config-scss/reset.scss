@@ -4,11 +4,18 @@
   border: 0;
   font: inherit;
   vertical-align: baseline;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   line-height: 1;
+}
 
+input {
+  outline: none;
 }
 
 ol, ul {
